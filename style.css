@@ -1,0 +1,741 @@
+
+body{
+    margin: 0px;
+    background-color: rgb(187, 144, 176);
+}
+
+/*--------- BANNER SECTION ---------*/
+.banner{
+    background-color: rgb(126, 77, 114);
+    vertical-align: baseline;
+    display: flex;
+}
+
+
+header{
+    
+    width: 1170px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    border: none;
+}
+
+.logoBrand{
+    display: inline-block;
+    
+}
+
+.logoBrand:hover{
+    cursor: pointer;
+}
+
+.topnav{
+    background-color: rgb(219, 201, 167);
+    width: 40%;
+    display: inline-block;
+    margin:auto;
+    border-radius: 5px;
+}
+
+.iconLupa{
+    width: 17px;
+    margin: auto;
+    display: inline-block;
+}
+
+.iconLupa:hover{
+    cursor:pointer;
+}
+
+.topnav input{
+    font-size: 17px;
+    font-family: "Fredoka", sans-serif;
+    background-color: rgb(219, 201, 167);
+    border: none;
+    outline: none;
+    width: 420px;
+    margin: 5px;
+    color: rgb(126, 77, 114)
+}
+
+.topnav input::placeholder{
+    color: rgb(157, 108, 145);
+}
+
+
+.iconCarrito{
+    display: inline-block;
+    width: 35px;
+    height: 30px;
+    margin: auto;
+}
+
+.iconCarrito:hover{
+    cursor:pointer;
+}
+
+.beforeProductBanner{
+    display: inline-flex;
+    width: 100%;
+    height: 190px;
+}
+
+
+.productBanner{
+    width: 100%;
+   
+}
+
+.ulProduct{
+    list-style: none;
+    font-family: "Fredoka", sans-serif;
+    color: rgb(219, 201, 167);
+    margin: auto;
+   
+}
+
+.liProducts{
+    text-align: center;
+    display: inline-block;    
+    margin-left: 50px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.liProducts:hover{
+    cursor:pointer;
+    transition: 0.25s;
+    color: rgb(255, 237, 203);
+    text-decoration:underline;
+    text-underline-offset: 0.4em;    
+}
+
+/*--------- ANUNCIOS ---------*/
+.anuncios{
+    position: relative;
+    display: flex;
+    width: auto;
+    background-color: rgb(243, 230, 206);
+    
+}
+
+.swipper{
+    transition: all;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 230, 206);
+}
+
+.venusBooksVideo{
+    height: 500px;
+}
+
+
+/* --------- CATEGORIAS --------- */
+.categorias{
+    width: 100%;
+    background-color: rgb(126, 77, 114);
+}
+
+.categoriasTitle{
+    font-family: "Fredoka", sans-serif;
+    color: rgb(194, 136, 179);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    margin: auto;
+    padding: 10px;
+    font-size: 25px;
+    
+}
+
+.catContainer{
+    list-style: none;
+    font-family: "Fredoka", sans-serif;
+    margin: auto;
+    color: rgb(219, 201, 167);
+    text-align: center;
+    align-content: space-evenly;
+}
+
+.catsItems{
+    text-align: center;
+    display: inline-block;
+    margin:auto;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+   
+}
+
+.catsItems:hover{
+    cursor:pointer;
+    transition: 0.25s;
+    color: rgb(255, 237, 203);
+    text-decoration:underline;
+    text-underline-offset: 0.4em;  
+}
+
+.arrowLeft{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.arrowRight{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.divider{
+    color: rgb(194, 136, 179);
+    height:2px;
+    border-width: 0;
+    margin: 1px;
+}
+
+
+/* --------- PRODUCTOS DESTACADOS --------- */
+
+.destacados{
+    width: 100%;
+    background-color: rgb(126, 77, 114);
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+}
+
+
+
+.productosDestacados{
+    width: 70%;
+    margin: auto;
+}
+
+
+.productosDestacadosTitle{
+    font-family: "Fredoka", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(194, 136, 179);
+}
+
+.librosDestacados{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 3rem;
+}
+
+.card-book{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;;
+    background-color: rgb(194, 136, 179);
+    padding: 1rem 1rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+}
+
+.card-book:hover{
+    cursor: pointer;
+    width:100%;
+   
+    
+}
+
+.book-img{
+    width: 100%;
+}
+
+.book-img-card{
+    width: 100%;
+}
+
+.card-text{
+    font-family: "Fredoka", sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: rgb(94, 53, 83);
+}
+
+.card-text:hover{
+    color: rgb(219, 201, 167);
+    transition-duration: 0.25s;
+
+}
+
+.price-text{
+    color: rgb(219, 201, 167);
+    font-weight: bold;
+}
+
+.price-text:hover{
+    color: rgb(161, 49, 131);
+    transition: 0.25s;
+}
+
+.buyButtonDiv{
+    margin:auto;
+}
+
+.buyButton{
+    font-family: "Fredoka", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(219, 201, 167);
+    background-color: rgb(94, 53, 83);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+
+}
+
+.buyButton:hover{
+    background-color: rgb(219, 201, 167);
+    color: rgb(94, 53, 83);
+    cursor: pointer;
+    transition-duration: 0.25s;
+}
+
+/* --------- END OF PRODUCTOS DESTACADOS SECTION --------- */
+
+/* --------- BEGGINING OF SUPPORT SECTION --------- */
+
+.supportDiv{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(/imagenes/supportBackground2.png);
+    background-position:center;
+}
+
+.supportTextDiv{
+    font-family: "Fredoka", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: rgb(219, 201, 167);
+    margin:auto;
+    padding: 2rem;
+    color: rgb(94, 53, 83);
+    
+}
+
+.supportButton{
+    font-family: "Fredoka", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: .5rem;
+    background-color: rgb(194, 136, 179);
+    border: none;
+    border-radius: 10px;
+    color: rgb(94, 53, 83);
+}
+
+.supportButton:hover{
+    background-color: rgb(94, 53, 83);
+    color: rgb(194, 136, 179);
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+/* --------- END OF SUPPORT SECTION --------- */
+
+/* --------- BEGGINING OF BANNER SERVICES SECTION --------- */
+
+.bannerServices{
+    width: 100%;
+    background-color:  rgb(202, 169, 193);
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerServicesDiv{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.delivery, .payment, .security{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.deliveryImg, .paymentImg, .securityImg{
+    height: 4rem;
+    margin:1rem;
+}
+
+.deliveryText, .paymentText, .securityText{
+    color: rgb(70, 35, 60);
+    font-family: "Fredoka", sans-serif;
+    margin: auto;
+}
+
+.deliveryTitle, .paymentTitle, .securityTitle{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin:0.5rem;
+}
+
+.deliveryParagraph, .paymentParagraph, .securityParagraph{
+    margin:0.5rem;
+}
+
+
+/* --------- END OF BANNER SERVICES SECTION --------- */
+
+/* --------- BEGGINING OF FOOTER SECTION --------- */
+
+.footer-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.divFooter{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-evenly;
+    font-family: "Fredoka", sans-serif;
+}
+
+
+.newsletter, .infoFooter, .contactFooter{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.newsletterText, .infoFooterText, .contactFooterText{
+    color: rgb(70, 35, 60);
+}
+
+.newsletterTitle, .infoFooterTitle, .contactFooterTitle{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin:auto;
+}
+
+.inputStyle{
+    height:1.5rem;
+    padding: 7px;
+    font-size: 17px;
+    font-family: "Fredoka", sans-serif;
+    background-color: rgb(219, 201, 167);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: rgb(126, 77, 114);
+}
+
+#name::placeholder, #email::placeholder{
+    color: rgb(126, 77, 114);
+}
+
+
+
+.contactButton{
+    font-family: "Fredoka", sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 5px;
+    padding: 10px;
+    color: rgb(219, 201, 167);
+    background-color: rgb(126, 77, 114);
+}
+
+.contactButton:hover{
+    cursor: pointer;
+    background-color: rgb(219, 201, 167);
+    color: rgb(126, 77, 114);
+}
+
+
+.infoFooter{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.infoFooterText{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoFooterUL{
+    list-style: none;
+    padding: 0;
+
+}
+
+.infoFooterLI:hover{
+    cursor: pointer;
+    color: rgb(219, 201, 167);
+}
+
+
+
+.contactFooterText{
+    margin: 1rem;
+}
+
+
+.contactFooterTitle{
+    margin-bottom: 2rem;
+}
+
+.contactFooterNumber{
+    margin-bottom: 5px;
+}
+
+.contactFooterEmail{
+    margin-top:5px;
+}
+
+
+
+/* ---------------------------- MEDIA QUERIES ---------------------- */
+
+
+/* ********************************** */
+/*               768px                 */
+/* ********************************** */
+
+
+@media (max-width: 768px){
+
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+
+  
+
+
+    .beforeProductBanner{
+        height: 6rem;
+    }
+
+    .topnav{
+        display: inline-flex;
+        width: 60%;
+    }
+
+    .topnav input{
+        width: auto;
+    }
+
+
+
+
+    .arrow{
+        display: none;
+    }
+
+    .venusBooksVideo{
+        height: 400px;
+        width: 360px;
+    }
+
+
+
+
+    
+
+
+
+    .destacados{
+        width: auto;
+        height: auto;
+        padding: 1rem;
+
+    }
+
+
+    
+
+
+    .bannerServicesDiv{
+        display: block;
+    }
+
+
+    
+
+    .footer-content{
+        width: auto;
+    }
+
+    .divFooter{
+        flex-direction: column;
+    }
+
+    .infoFooter{
+        align-content: flex-start;
+        margin: 2rem;
+    }
+
+    .infoFooterText{
+        
+        justify-content: space-evenly;
+    }
+
+    .infoFooterTitle{
+        margin-right: 1rem;
+    }
+
+    .newsletterForm{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputStyle{
+        margin: 5px;
+    }
+
+}
+
+
+
+
+
+
+/* ********************************** */
+/*          MIN-WIDTH 820PX          */
+/* ********************************** */
+
+@media (max-width: 1050px){
+
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+
+  
+
+
+    .beforeProductBanner{
+        height: 6rem;
+    }
+
+    .topnav{
+        display: inline-flex;
+        width: 60%;
+    }
+
+    
+
+
+
+
+    .arrow{
+        display: none;
+    }
+
+    .venusBooksVideo{
+        height: 400px;
+        width: 700px;
+    }
+
+
+
+
+    
+
+
+
+    .destacados{
+        width: auto;
+        height: auto;
+        padding: 1rem;
+
+    }
+
+
+    
+
+
+    .bannerServicesDiv{
+        display: block;
+    }
+
+
+    
+
+    .footer-content{
+        width: auto;
+    }
+
+    .divFooter{
+        flex-direction: column;
+    }
+
+    .infoFooter{
+        align-content: flex-start;
+        margin: 2rem;
+    }
+
+    .infoFooterText{
+        
+        justify-content: space-evenly;
+    }
+
+    .infoFooterTitle{
+        margin-right: 1rem;
+    }
+
+    .newsletterForm{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputStyle{
+        margin: 5px;
+    }
+
+}
+
+
+
+/* ********************************** */
+/*             344PX                */
+/* ********************************** */
+
+
+@media (max-width: 345px){
+    .venusBooksVideo{
+        width: 330px;
+    }
+
+
+    .logoBrand{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .topnav{
+        width: 100%;
+    }
+
+    .iconCarrito{
+        width: 2rem;
+        height: 2rem;
+    }
+}
