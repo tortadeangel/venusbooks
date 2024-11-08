@@ -621,7 +621,7 @@ header{
 /*          MIN-WIDTH 820PX          */
 /* ********************************** */
 
-@media (max-width: 1050px){
+@media (min-width 820px) and (max-width: 1050px){
 
     .body{
         display: flex;
